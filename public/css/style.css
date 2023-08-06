@@ -50,23 +50,11 @@ body {
     margin: 0px auto 10px auto;
 }
 
-  @media only screen and (min-device-width: 200px) and (max-device-width: 600px)  {
-  .w-50  {
+
+  @media only screen and (min-width: 200px) and (max-width: 767px)  { 
+    .w-50  {
         width: 100% !important;
-        }  }
 
-
-
- @media only screen and (min-width: 200px) and (max-device-width: 600px)  {
-  .w-50  {
-        width: 100% !important;
-        }  }
-
-
-        @media (min-width: 576px) { 
-
-            .w-50  {
-                width: 100% !important;
-                }  }
-         
+        } 
+    }
 
