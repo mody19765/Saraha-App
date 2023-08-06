@@ -49,8 +49,8 @@ body {
 .share {
     margin: 0px auto 10px auto;
 }
-@media screen and (max-width: 600px) {
-    .w-50  {
-    width: 100% !important;
-    }
-  }
+
+  @media only screen and (min-device-width: 200px) and (max-device-width: 600px)  {
+  .w-50  {
+        width: 100% !important;
+        }  }
